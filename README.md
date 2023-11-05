@@ -1,5 +1,5 @@
-![ProtocolsDemo Section 13](Documentation/SS-1.gif)
-![ProtocolsDemo Section 13](Documentation/SS-2.gif)
+![ProtocolsDemo Section 13](Documentation/SS-1.png)
+![ProtocolsDemo Section 13](Documentation/SS-2.png)
 
 - Protocols
 - Protocols can be adopted by structures or classes
