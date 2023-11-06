@@ -1,4 +1,5 @@
 protocol CanFly {
+    // Func body is empty here. It should be defined in class method.
     func fly()
 }
 
@@ -29,6 +30,7 @@ class Penguin: Bird {
 }
 
 struct FlyingMuseum {
+    // We can use protocol as a dataType(CanFly).
     func flyingDemo(flyingObject: CanFly){
         flyingObject.fly()
     }
@@ -46,6 +48,7 @@ let myPlane = Airplane()
 myEagle.fly()
 
 let museum = FlyingMuseum()
+// We can pass object(myPlane) instead of protocol
 museum.flyingDemo(flyingObject: myPlane)
 
 
